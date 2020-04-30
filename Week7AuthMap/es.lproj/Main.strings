@@ -1,12 +1,12 @@
 
 /* Class = "UIButton"; normalTitle = "Login"; ObjectID = "2Rm-aI-LFn"; */
-"2Rm-aI-LFn.normalTitle" = "Login";
+"2Rm-aI-LFn.normalTitle" = "Iniciar sesión";
 
 /* Class = "UIViewController"; title = "Login"; ObjectID = "BYZ-38-t0r"; */
-"BYZ-38-t0r.title" = "Login";
+"BYZ-38-t0r.title" = "Iniciar sesión";
 
 /* Class = "UILabel"; text = "Please Login"; ObjectID = "JIP-If-QTc"; */
-"JIP-If-QTc.text" = "Please Login";
+"JIP-If-QTc.text" = "Por favor Iniciar sesión";
 
 /* Class = "UIViewController"; title = "Map"; ObjectID = "g5E-5F-0fL"; */
-"g5E-5F-0fL.title" = "Map";
+"g5E-5F-0fL.title" = "El Mapa";

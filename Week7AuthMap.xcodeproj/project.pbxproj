@@ -9,23 +9,30 @@
 /* Begin PBXBuildFile section */
 		3A42CCF5245A8F40004369F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CCF4245A8F40004369F7 /* AppDelegate.swift */; };
 		3A42CCF7245A8F40004369F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CCF6245A8F40004369F7 /* SceneDelegate.swift */; };
-		3A42CCF9245A8F40004369F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CCF8245A8F40004369F7 /* ViewController.swift */; };
+		3A42CCF9245A8F40004369F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CCF8245A8F40004369F7 /* LoginViewController.swift */; };
 		3A42CCFC245A8F40004369F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42CCFA245A8F40004369F7 /* Main.storyboard */; };
 		3A42CCFF245A8F40004369F7 /* Week7AuthMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CCFD245A8F40004369F7 /* Week7AuthMap.xcdatamodeld */; };
 		3A42CD01245A8F43004369F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A42CD00245A8F43004369F7 /* Assets.xcassets */; };
 		3A42CD04245A8F43004369F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A42CD02245A8F43004369F7 /* LaunchScreen.storyboard */; };
+		3A42CD0C245A8FE7004369F7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CD0B245A8FE7004369F7 /* MapViewController.swift */; };
+		3A42CD0E245AA6BC004369F7 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A42CD0D245AA6BC004369F7 /* Locations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A42CCF1245A8F40004369F7 /* Week7AuthMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week7AuthMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A42CCF4245A8F40004369F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A42CCF6245A8F40004369F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A42CCF8245A8F40004369F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A42CCF8245A8F40004369F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3A42CCFB245A8F40004369F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A42CCFE245A8F40004369F7 /* Week7AuthMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Week7AuthMap.xcdatamodel; sourceTree = "<group>"; };
 		3A42CD00245A8F43004369F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A42CD03245A8F43004369F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A42CD05245A8F43004369F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A42CD0B245A8FE7004369F7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3A42CD0D245AA6BC004369F7 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		3A42CD0F245AE3B9004369F7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		3A42CD10245AE3BA004369F7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3A42CD12245AE4FA004369F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +67,10 @@
 			children = (
 				3A42CCF4245A8F40004369F7 /* AppDelegate.swift */,
 				3A42CCF6245A8F40004369F7 /* SceneDelegate.swift */,
-				3A42CCF8245A8F40004369F7 /* ViewController.swift */,
+				3A42CCF8245A8F40004369F7 /* LoginViewController.swift */,
+				3A42CD0B245A8FE7004369F7 /* MapViewController.swift */,
 				3A42CCFA245A8F40004369F7 /* Main.storyboard */,
+				3A42CD0D245AA6BC004369F7 /* Locations.swift */,
 				3A42CD00245A8F43004369F7 /* Assets.xcassets */,
 				3A42CD02245A8F43004369F7 /* LaunchScreen.storyboard */,
 				3A42CD05245A8F43004369F7 /* Info.plist */,
@@ -112,6 +121,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 3A42CCE8245A8F40004369F7;
 			productRefGroup = 3A42CCF2245A8F40004369F7 /* Products */;
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A42CD0E245AA6BC004369F7 /* Locations.swift in Sources */,
 				3A42CCFF245A8F40004369F7 /* Week7AuthMap.xcdatamodeld in Sources */,
-				3A42CCF9245A8F40004369F7 /* ViewController.swift in Sources */,
+				3A42CCF9245A8F40004369F7 /* LoginViewController.swift in Sources */,
 				3A42CCF5245A8F40004369F7 /* AppDelegate.swift in Sources */,
+				3A42CD0C245A8FE7004369F7 /* MapViewController.swift in Sources */,
 				3A42CCF7245A8F40004369F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,6 +167,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A42CCFB245A8F40004369F7 /* Base */,
+				3A42CD0F245AE3B9004369F7 /* es */,
+				3A42CD12245AE4FA004369F7 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +177,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3A42CD03245A8F43004369F7 /* Base */,
+				3A42CD10245AE3BA004369F7 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -234,6 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
